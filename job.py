@@ -9,3 +9,5 @@ import jenkins
 
 server = jenkins.Jenkins("http://127.0.0.1:8080", "dustin", "pwd")
 print(server.get_whoami())
+print(server.jobs_count())
+print(server.server)
